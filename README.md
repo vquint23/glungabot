@@ -19,11 +19,13 @@ The bot's prefix is `gb.`, and currently Glungabot has the following commands:
 ### APIs
 Glungabot makes use of the following RESTful APIs to look up spells (using the D&D 5e API), and to get random dog/cat pictures.
 
-
 ### Hosting
 Glungabot is hosted using Heroku. 
 
 ### Bot Programming
 Glungabot is created using JavaScript, Discord.js, and Node.js
+
+## Glungablug (Redcap) 
+![picture](glungablug.jpg)
 
 
