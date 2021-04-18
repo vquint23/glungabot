@@ -167,7 +167,8 @@ client.on('message', async message => {
                 const timeTaken = Date.now() - message.createdTimestamp;
                 message.channel.send(`Pong! This message had a latency of ${timeTaken}ms.`);
                 break;
-            case "r" || "roll":
+            case "roll":
+            case "r":
                 rollDice(message, args);
                 break;
             case "gold":
